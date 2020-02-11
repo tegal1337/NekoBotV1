@@ -2,6 +2,7 @@
 ![Screenshoot](/screenshoot-neko.png)<br>
 Download : <a href="https://github.com/tegal1337/NekoBotV1/blob/master/files/NekoBot.zip?raw=true">Click Here</a>
 <br>
+#### Features :
 [+] Wordpress :
 <pre>
 1- Cherry-Plugin
