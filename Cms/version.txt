@@ -1,0 +1,38 @@
+joom => http://zenithrubber.com.au/ => 3.9.0
+joom => http://thaiplasticpack.com/ => 1.5.15
+joom => http://pointca.info/ => 2.5.19
+joom => http://sunnybabies.ru/ => 1.5.15
+joom => http://myphamngochanh.com.vn/ => 1.5.15
+joom => http://mamedebenevides.com.br/ => 2.5.10
+joom => http://www.atonenergia.com/ => 2.5.10
+joom => http://hg3.cl/ => 3.5.0
+joom => http://laplaya.mobi/ => 1.5.15
+joom => http://www.brz.com.pl/ => 1.5.15
+joom => http://winfix.se/ => 1.7.1
+joom => http://www.shkola-internat.org.ua/ => 2.5.28
+joom => http://www.riversideballpark.com/ => 2.5.28
+joom => http://www.sos-morava.cz/ => 1.7.1
+joom => http://www.dostoewo.ivanovo.by/ => 2.5.19
+joom => http://www.myecolombia.com.co/ => 1.6.2
+joom => http://www.rids-nepal.org/ => 1.5.15
+joom => http://www.planeta-zemla.ru/ => 1.5.15
+joom => http://www.benvenutiamuggia.eu/ => 1.5.15
+joom => http://www.mtv-eyendorf.de/ => 3.9.13
+joom => http://www.sempremlinha.pt/ => 1.5.15
+joom => http://www.philipsenet.nl/ => 3.9.13
+joom => http://www.newtek.se/ => 2.5.19
+joom => http://www.osahispana.org/ => 1.5.15
+joom => http://www.psp19.radom.pl/ => 2.5.28
+wp => http://www.hesychia.net/ => 5.3
+wp => http://www.adslaminar.com/ => 5.0.7
+wp => http://www.laserzentrum-graz.com/ => 5.3
+joom => http://www.unterbraeu.com/ => 2.5.19
+joom => http://jagatex.pl/ => 2.5.28
+joom => http://syrinfo.ru/ => 2.5.5
+joom => http://www.hamilton-smith.com/ => 3.9.13
+wp => http://vvsmandentornby.dk/ => 5.0.7
+wp => http://www.tc-rwa.de/ => 4.9.12
+wp => http://www.grayghostplantation.com/ => 5.2.4
+wp => http://www.onelove.mu//wp/ => 5.2.4
+joom => http://www.newtek.se => 2.5.19
+joom => http://www.optimumnz.com => 1.5.15
