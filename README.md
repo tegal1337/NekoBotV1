@@ -1,6 +1,6 @@
 ### NekoBotV1 | Auto Exploiter With 500+ Exploit 2000+ Shell 
 ![Screenshoot](/screenshoot-neko.png)<br>
-Download : <a href="https://github.com/tegal1337/NekoBotV1/blob/master/files/NekoBot.zip?raw=true">Click Here</a>
+NekoBot is an auto exploit tool to facilitate the penetration of one or many websites (Wordpress, Joomla, Drupal, Magento, Opencart,and Etc). 
 <br>
 #### Features :
 [+] Wordpress :
