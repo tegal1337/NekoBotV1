@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from __future__ import print_function
 import sys
 import threading
 import requests, urllib3
@@ -23,17 +24,17 @@ def check_shell(url):
 		if req.status_code == 200 and res == url.replace("\r", ""):
 			s_200.write(url+"\n")
 			s_200.flush()
-			print "{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.grn, req.status_code, Cl.wht, Cl.grn, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.grn, url, Cl.end)
+			print("{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.grn, req.status_code, Cl.wht, Cl.grn, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.grn, url, Cl.end))
 			
 		elif req.status_code == 403 and res == url.replace("\r", ""):
 			s_403.write(url+"\n")
 			s_403.flush()
-			print "{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.ylw, req.status_code, Cl.wht, Cl.ylw, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.ylw, url, Cl.end)
+			print("{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.ylw, req.status_code, Cl.wht, Cl.ylw, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.ylw, url, Cl.end))
 			
 		elif req.status_code >= 500 and res == url.replace("\r", ""):
 			s_500.write(url+"\n")
 			s_500.flush()
-			print "{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.red, req.status_code, Cl.wht, Cl.red, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.red, url, Cl.end)
+			print("{}[{}{}{}][{}{}{}] {}{}{}".format(Cl.wht, Cl.red, req.status_code, Cl.wht, Cl.red, datetime.now().strftime('%H:%M:%S'), Cl.wht, Cl.red, url, Cl.end))
 		else:
 			pass
 	
@@ -42,13 +43,13 @@ def check_shell(url):
 	except requests.exceptions.Timeout:
 		pass
 	except KeyboardInterrupt:
-		print "\n[!] Close Scanning..."
+		print("\n[!] Close Scanning...")
 		s_200.close()
 		s_403.close()
 		s_500.close()
 		exit(0)
 	except Exception as e:
-		print "[!][Error] {}".format(e)
+		print("[!][Error] {}".format(e))
 			
 	return True
 	
@@ -70,9 +71,9 @@ def main():
 	try :
 		target	= [i for i in open(sys.argv[1]).read().split("\n") if i != ""]
 	except IOError:
-		print "[!][Error] No such file or directory: '{}'".format(sys.argv[1])
+		print("[!][Error] No such file or directory: '{}'".format(sys.argv[1]))
 	except:
-		print 	"[+] Usage: python file.py list.txt"
+		print("[+] Usage: python file.py list.txt")
 		exit(0)	
 	
 	for i in target:
@@ -81,13 +82,13 @@ def main():
 			t.start()	
 			#check_shell(i)
 		except KeyboardInterrupt:
-			print "\n[!] Close Scanning..."
+			print("\n[!] Close Scanning...")
 			s_200.close()
 			s_403.close()
 			s_500.close()
 			exit(0)
 		except Exception as e:
-			print "[!][Error] {}".format(e)
+			print("[!][Error] {}".format(e))
 			
 	return True
 	
@@ -95,10 +96,10 @@ if __name__ == "__main__":
 	try:
 		main()
 	except KeyboardInterrupt:
-		print "\n[!] Close Scanning..."
+		print("\n[!] Close Scanning...")
 		s_200.close()
 		s_403.close()
 		s_500.close()
 		exit(0)
 	except Exception as e:
-		print "[!][Error] {}".format(e)
+		print("[!][Error] {}".format(e))
