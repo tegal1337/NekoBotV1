@@ -1,0 +1,2 @@
+ecuahit.net//.env
+www.nazksa.com/.env

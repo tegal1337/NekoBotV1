@@ -1,0 +1,24 @@
+http://atlasi.al/wp-login.php
+ Username: root
+ Password: password
+-----------------------------------------
+http://tradesman.uk/wp-login.php
+ Username: admin
+ Password: pass
+-----------------------------------------
+http://woocommerce-pos.openswatch.com/wp-login.php
+ Username: admin
+ Password: admin123
+-----------------------------------------
+http://woocommerce-pos.openswatch.com/wp-login.php
+ Username: admin
+ Password: admin123
+-----------------------------------------
+http://shop2.cuatao.net/wp-login.php
+ Username: admin
+ Password: admin123
+-----------------------------------------
+http://checkochal.com/wp-login.php
+ Username: admin
+ Password: admin
+-----------------------------------------

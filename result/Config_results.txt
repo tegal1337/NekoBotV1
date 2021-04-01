@@ -1,0 +1,6 @@
+ TargetDB = ecuahit.net//.env
+ Host:  localhost
+ user:  gonnav50_netplus
+ pass:  lOCl0v1Ob4
+ DB:    gonnav50_netplus
+---------------------
