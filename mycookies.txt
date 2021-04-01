@@ -1,4 +1,0 @@
-#LWP-Cookies-1.0
-Set-Cookie3: uni1=1; path="/"; domain=syrinfo.ru; expires="2019-12-02 03:46:21Z"; version=0
-Set-Cookie3: crawlprotecttag=present; path="/"; domain=www.eco-ossaturebois.com; path_spec; expires="2019-12-02 03:37:39Z"; version=0
-Set-Cookie3: zemlya_tpl=zemlya; path="/"; domain=www.planeta-zemla.ru; path_spec; expires="2020-11-20 03:54:45Z"; version=0
