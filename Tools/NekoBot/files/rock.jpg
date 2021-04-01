@@ -1,1 +1,0 @@
-<body style='color: transparent;background-color: black'><center><h1><b style='color: white'>Vuln!! patch it now!<p style='color: transparent'>
